@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="@string/options_location_key"
+        android:title="Recibir notificaciones"
+        android:entries="@array/localizacion_options"
+        android:entryValues="@array/localizacion_options_values"
+        android:defaultValue="0"
+        android:summary="%s"/>
+
+</PreferenceScreen>

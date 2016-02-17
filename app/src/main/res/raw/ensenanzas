@@ -1,0 +1,32 @@
+<ensenanzas>
+
+
+    <!--       ESO                  -->
+    <ensenanza name="E.S.O">
+
+
+    </ensenanza>
+
+
+    <!--       Bachillerato         -->
+    <ensenanza name="Bachillerato">
+
+
+    </ensenanza>
+
+
+    <!--       GRADOS MEDIOS        -->
+    <ensenanza name="Ciclos formativos de Grado Medio">
+
+    </ensenanza>
+
+
+    <!--      GRADOS SUPERIORES     -->
+    <ensenanza name="Ciclos formativos de Grado Superior">
+
+        <curso name="Desarrollo de Aplicaciones Multiplataforma"/>
+        <curso name="Desarrollo de Aplicaciones Multiplataforma Modalidad elearning"/>
+
+    </ensenanza>
+
+</ensenanzas>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--En metros-->
+    <string name="radius">50.0</string>
+
+    <!--En grados-->
+    <string name="latitude">40.6309827</string>
+    <string name="longitude">-3.1901372</string>
+
+
+
+    <string-array name="localizacion_options">
+        <item>Recibir todas las notificaciones</item>
+        <item>Sólo en el centro</item>
+        <item>No recibir notificaciones</item>
+    </string-array>
+
+    <string name="all_notif">0</string>
+    <string name="only_center">1</string>
+    <string name="no_notif">2</string>
+
+    <array name="localizacion_options_values">
+
+        <item>@string/all_notif</item>
+        <item>@string/only_center</item>
+        <item>@string/no_notif</item>
+    </array>
+</resources>

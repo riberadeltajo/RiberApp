@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">RiberApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activity_notificacion">Noticia</string>
+    <string name="url_get_notif_by_date">http://mediahub.riberadeltajo.es/public_access/select_notif.php?lastdate=</string>
+
+    <string name="transition_name_name">transition:NOMBRE</string>
+    <string name="transition_name_date">transition:FECHA</string>
+
+    <string name="share_header"> - Noticias IES Ribera del Tajo -\n</string>
+
+
+    <!--  INFO DEL CENTRO -->
+
+    <string name="infocentro_direccion">Avenida Real Fábrica de Sedas s/n \n 45600 Talavera de la Reina \n Toledo - Castilla La Mancha </string>
+    <string name="infocentro_tlfno">Telfno: 925722233 / 925723334</string>
+    <string name="infocentro_fax">Fax: 925804375</string>
+    <string name="infocentro_web">www.iesriberadeltajo.com</string>
+    <string name="infocentro_email">email: 45005471.ies@edu.jccm.es</string>
+    <string name="infocentro_facebook">Facebook: ies.riberadeltajo</string>
+    <string name="infocentro_twitter">Twitter: @IESRiberaTajo</string>
+    <string name="infocentro_nombre">I.E.S. Ribera del Tajo</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="ensenanzas_title">Enseñanzas Impartidas</string>
+    <string name="str_configuracion">Configuración</string>
+    <string name="str_informacion_del_cento">Información del Centro</string>
+    <string name="options_location_key">localizacion_options</string>
+
+    <!--                -->
+
+    <string-array name="ensenanzas">
+
+        <item> F.P. Básica Servicios Administrativos </item>
+
+        <item> F.P. Básica Informática y Telecomunicaciones</item>
+
+        <item> C.F.G.M. Gestión Administrativa</item>
+
+        <item> C.F.G.M. Cuidados Auxiliares de Enfermería</item>
+
+        <item> C.F.G.M. Sistemas Microinformáticos y Redes</item>
+
+        <item> C.F.G.S. Administración y Fianzas</item>
+
+        <item> C.F.G.S. Asistencia a la Dirección</item>
+
+        <item> C.F.G.S. Administración de Sistemas Informáticos</item>
+
+        <item> C.F.G.S. Desarrollo de Aplicaciones Multiplataforma</item>
+
+        <item> C.F.G.S. Anatomía Patológica y Citología</item>
+
+        <item> Educación Secundaria Obligatoria</item>
+
+        <item> Bachillerato Ciencias y Tecnología</item>
+
+        <item> Bachillerato Humanidades y Ciencias Sociales</item>
+
+    </string-array>
+
+
+
+
+</resources>

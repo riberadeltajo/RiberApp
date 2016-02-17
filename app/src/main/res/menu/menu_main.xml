@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/info_centro" android:title="@string/str_informacion_del_cento" app:showAsAction="never"/>
+    <item android:id="@+id/preferences" android:title="@string/str_configuracion" app:showAsAction="never"/>
+
+
+</menu>

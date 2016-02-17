@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    style="@style/AppTheme">
+
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/color_4"
+            android:elevation="4dp"
+            android:title="@string/app_name"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            />
+
+        <LinearLayout
+            android:id="@+id/viewA"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:background="@color/color_second"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:id="@+id/textView_date"
+                android:text="Date"
+                android:textColor="#f8f8f8"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:text="Title"
+                android:gravity="center"
+                android:id="@+id/textView_title"
+                android:textColor="#f8f8f8"
+                android:textSize="25sp" />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/viewB"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            style="@style/AppTheme"
+            android:background="@color/color_4"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:gravity="center"
+                android:id="@+id/textView_descripcion"
+                android:scrollbars="vertical"
+                android:maxLines="512"/>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom|end">
+
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/boton_twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:clickable="true"
+            android:src="@drawable/icon_twitter"
+            android:visibility="gone"
+            style="@style/AppTheme"
+            app:backgroundTint="@color/color_resaltado"
+            android:onClick="onClick"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/boton_web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:clickable="true"
+            android:src="@drawable/icon_home"
+            android:visibility="gone"
+            style="@style/AppTheme"
+            app:backgroundTint="@color/color_resaltado"
+            android:onClick="onClick"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/boton_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:clickable="true"
+            android:src="@drawable/icon_share"
+            style="@style/AppTheme"
+            app:backgroundTint="@color/color_resaltado"
+            android:onClick="onClick"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
