@@ -19,9 +19,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.net.Authenticator;
 import java.net.HttpURLConnection;
-import java.net.PasswordAuthentication;
 import java.net.SocketTimeoutException;
 import java.net.URL;
 
@@ -62,11 +60,6 @@ public class QueryNotifsUpdateUiAsyncTask extends AsyncTask<String, Void, Void> 
         //Suponemos que establece conexion, se establece a falso en caso de error
         connected = true;
 
-        Authenticator.setDefault(new Authenticator() {
-            protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("mediahub", "tenorio45".toCharArray());
-            }
-        });
 
         try {
             URL url = new URL(params[0]);
