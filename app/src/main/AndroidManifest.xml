@@ -2,10 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.chiri.riberappprototype">
 
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <!--<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />-->
 
     <application
         android:allowBackup="true"
@@ -33,8 +30,6 @@
         <activity android:name=".preferences.Preferences"
             android:label="Configuración"/>
 
-        <activity android:name=".location.DialogRequestPermissions"
-            android:label="Request Permissions"/>
 
         <service
             android:name=".notification_service.NotifsQueryService"

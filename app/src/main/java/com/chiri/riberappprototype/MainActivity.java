@@ -19,7 +19,6 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.chiri.riberappprototype.notification_service.AlarmSetter;
-import com.chiri.riberappprototype.preferences.Preferences;
 import com.chiri.riberappprototype.utils.Notificacion;
 
 import java.util.ArrayList;
@@ -127,9 +126,6 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
             case R.id.info_centro:
                 Intent intent = new Intent(MainActivity.this, ActivityInfoCentro.class);
                 startActivity(intent);
-                break;
-            case R.id.preferences:
-                startActivity(new Intent(this, Preferences.class));
                 break;
         }
 
